@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- ====================================
+    LINKS DEL TABULADOR
+    ==================================== -->
+
+    <div class="tab">
+        <button class="tablinks" onclick="abrirCiudad(event,'Cordoba')">Córdoba</button>
+        <button class="tablinks" onclick="abrirCiudad(event,'bsas')">Buenos Aires</button>
+        <button class="tablinks" onclick="abrirCiudad(event,'tucuman')">Tucumán</button>
+    </div>
+
+    <!-- ====================================
+    CONTENIDOS DEL TABULADOR
+    ==================================== -->
+<div id="Cordoba" class="tabcontent">
+    <h3>Córdoba</h3>
+    <p>Córdoba es en donde nací y donde están mis amigos y familiares mas cercanos.</p>
+</div>
+
+<div id="bsas" class="tabcontent">
+        <h3>Buenos Aires</h3>
+        <p>Donde está el resto de mi familia.</p>
+
+</div>
+
+<div id="tucuman" class="tabcontent">
+        <h3>Tucumán</h3>
+        <p>Es donde vivo ahora.</p>
+
+</div>
+
+</body>
+<script src="jscript.js"></script>
+</html>
